@@ -1,6 +1,3 @@
-
-
-// Remove show class from all content items
 function removeShow() {
 	tabContentItems.forEach(item => {
 		item.classList.remove('show');

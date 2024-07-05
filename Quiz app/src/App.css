@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+  margin: 20px;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quiz-section {
+  background-color: #f9f9f9;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  width: 80%;
+  max-width: 600px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.question-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.question-section {
+  margin: 20px;
+  width: 100%;
+}
+
+.question-text {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.answer-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.answer-section button {
+  margin: 5px;
+  padding: 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  flex: 1 0 45%; /* This ensures that buttons take 45% of the container width */
+  max-width: 45%;
+  min-width: 45%;
+  box-sizing: border-box;
+  height: 50px; /* Ensuring all buttons have the same height */
+}
+
+.answer-section button:hover {
+  background-color: #0056b3;
+}
+
+.answer-section button.selected {
+  background-color: #d1e7dd;
+}
+
+.score-section {
+  font-size: 24px;
+  margin: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: white;
+}
+
+button:hover {
+  background-color: #218838;
+}
